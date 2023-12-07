@@ -42,6 +42,64 @@
  
  python weather_app1.py --apikey your_actual_api_key NewYork
 
+ # output:
+ 
+ Weather in NewYork: Cloudy
+
+ # Add a City to Favorites:
+
+ python weather_app1.py --apikey your_actual_api_key --add London
+
+# output:
+
+London added to favorites.
+
+# View Favorite Cities:
+
+python weather_app1.py --apikey your_actual_api_key --favorites
+
+# output:
+
+Your favorite cities:
+- London
+- Paris
+- Tokyo
+
+# Update a Favorite City:
+
+python weather_app1.py --apikey your_actual_api_key --update Paris Berlin
+
+# output
+
+Paris updated to Berlin in your favorites.
+
+# Remove a City from Favorites:
+
+python weather_app1.py --apikey your_actual_api_key --remove Tokyo
+
+# output
+
+Tokyo removed from favorites.
+
+# Enable Auto-Refresh:
+
+python weather_app1.py --apikey your_actual_api_key --auto-refresh 30
+
+# output
+
+Auto-refresh enabled. Refreshing every 30 seconds.
+
+# Note:
+
+•	Make sure to replace your_actual_api_key with your actual WeatherAPI key.
+
+
+
+
+
+
+
+
 
 
 
