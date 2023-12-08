@@ -69,7 +69,7 @@ Your favorite cities:
 
 python weather_app1.py --apikey your_actual_api_key --update Paris Berlin
 
-# output
+# output:
 
 Paris updated to Berlin in your favorites.
 
@@ -77,7 +77,7 @@ Paris updated to Berlin in your favorites.
 
 python weather_app1.py --apikey your_actual_api_key --remove Tokyo
 
-# output
+# output:
 
 Tokyo removed from favorites.
 
@@ -85,7 +85,7 @@ Tokyo removed from favorites.
 
 python weather_app1.py --apikey your_actual_api_key --auto-refresh 30
 
-# output
+# output:
 
 Auto-refresh enabled. Refreshing every 30 seconds.
 
